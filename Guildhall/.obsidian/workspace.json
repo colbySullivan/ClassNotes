@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TGP/Iterative Game Development.md",
+                "file": "TGP/Day 9 - Iterative Game Development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iterative Game Development"
+              "title": "Day 9 - Iterative Game Development"
             }
           }
         ],
@@ -184,10 +184,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "de065a7f2739408e",
+  "active": "e7b0789910dcc999",
   "lastOpenFiles": [
     "TGP/Day 8 - Agile Game Development with Scrum.md",
-    "TGP/Iterative Game Development.md",
+    "TGP/Day 9 - Iterative Game Development.md",
     "TGP/Day 7 - Rapid Development.md",
     "TGP/Day 6 - Product Development Lifecycle.md",
     "TGP/Day 3 Notes - Perforce and Werewolves.md",
