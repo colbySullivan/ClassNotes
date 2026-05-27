@@ -1,0 +1,28 @@
+<Definitions>
+	<!--Permanent Upgrades-->
+	<ItemDefinitions>
+		<Item name="AttackSpeed">
+			<Upgrade positive-percentage="10.0" positive-catagory="attackspeed" /> 
+			<Downgrade negative-percentage="5.0" negative-catagory="movementspeed" />
+			<Cost buy-cost="500.0" sell-cost="250.0" />
+			<Cosmetic imagepath="Data/Images/Items/attackspeed.png" description="Increases attack speed but lowers movement."/>
+		</Item>
+	</ItemDefinitions>
+
+	<!--Upgrades-->
+	<UpgradeDefinitions>
+		<Upgrade name="Farm">
+			<Upgrade positive-percentage="20.0" positive-catagory="xp" />
+			<Cosmetic imagepath="Data/Images/Items/farm.png" description="Increases xp gained from killing enemies."/>
+		</Upgrade>
+	</UpgradeDefinitions>
+
+	<!--Actors-->
+	<ActorDefinitions>
+		<Attributes>
+			<Attribute name="Dodge" positive-percentage="50.0" positive-catagory="dodge" />
+			<Attribute name="AttackSpeed" negative-percentage="50.0" negative-catagory="attackspeed" />
+		</Attributes>
+		<Cosmetic imagepath="Data/Images/Items/bruiser.png" description="Slower attack speed but better melee."/>
+	</ActorDefinitions>
+</Definitions>
